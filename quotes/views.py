@@ -14,12 +14,14 @@ def deHash(num):
 
 
 def randomQuote(request):
-    #r = random.randrange(1, quote.objects.count())
-    #randomQuote = quote.objects.get(pk = r)
+    r = random.randrange(1, quote.objects.count())
+    randomQuote = quote.objects.get(pk = r)
      
-    #quoteIdHash = makeHash(r)
-    randomQuote = "Hello how are you"
-    quoteIdHash = "ec2"
+    quoteIdHash = makeHash(r)
+    #randomQuote = "Hello how are you"
+    #quoteIdHash = "ec2"
+    #if request.is_ajax():
+
      
     return render(request, "quotes/singleQuote.html", {"singleQuote": randomQuote, "quoteIdHash": quoteIdHash})
  
@@ -42,5 +44,16 @@ def getQuote(request, qHash):
         
     return render(request, "quotes/singleQuote.html", {"singleQuote": q, "quoteIdHash": qHash})
 
-def incrementQuote(request, qHash):
-     pass
+def incrementQuote(request):
+     if request.is_ajax():
+        quoteHash = request.GET.get("qHash")
+        print quoteHash
+        q = quote.objects.get(pk = deHash(quoteHash))
+
+        print "Incrementing quote:", q.content
+        print "q.likes:", q.likes
+        q.likes += 1
+        print "q.likes:", q.likes
+        q.save()
+
+        return HttpResponse("Quote Updated")
