@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+   <head>
+      <meta charset = "UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>
+         Goodliner | {% block title %}{% endblock %}
+      </title>
+      {% load staticfiles %}
+      <link rel = "stylesheet" href = "{% static 'quotes/css/styles.css' %}">
+      <link rel = "stylesheet" href = "{% static 'quotes/css/bootstrap.min.css' %}">
+      <link rel = "stylesheet" href = "{% static 'quotes/css/bootstrap-theme.min.css' %}">
+      <link href='http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400italic' rel='stylesheet' type='text/cs'>
+      <link href='http://fonts.googleapis.com/css?family=Cambo' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Esteban' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon' rel='stylesheet' type='text/css'>
+      {% block stylesheets %}{% endblock %}
+   </head>
+
+   <body>
+     <div id = "page-main" class = "container">
+      <header class = "row">
+         <hgroup class = "col-md-8">
+            <h1 id = "logo-text">goodliners</h1>
+            <h4 id = "slogan-text">one line inspirations</h4>
+         </hgroup>
+
+         <nav class = "col-md-4">
+            <ul>
+               <li><a href = "#">home</a></li>
+               <li><a href = "#">about</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <div id = "page-content" class = "row">
+         {% block mainpage %}{% endblock %}
+      </div>
+
+      <footer class = "row">
+         <div>goodliners &copy 2014 - all rights reserved</div>
+      </footer>
+     </div>
+
+
+      <script src = "{% static 'quotes/js/jquery-1.11.0.min.js' %}"></script>
+      <script src = "{% static 'quotes/js/bootstrap.min.js' %}"></script>
+      {% block scripts %}
+      {% endblock %}
+   </body>
+
+</html>
+

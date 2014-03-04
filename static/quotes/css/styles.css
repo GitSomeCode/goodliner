@@ -1,0 +1,108 @@
+body {
+
+   font-family: verdana;
+}
+
+h2.fancy {
+
+   font-family: "IM Fell Great Primer";
+
+   font-style: italic;
+}
+
+div#page-main {
+
+   width: 1100px;
+
+   border: 1px solid black;
+}
+
+#page-main header {
+
+   background-color: #f8e9d7;
+}
+
+#page-main header hgroup {
+
+   /*width: 640px;*/
+}
+
+#page-main header nav {
+
+   color: #9c5114;
+
+   /*width: 320px;*/
+
+   margin-top: 20px;
+}
+
+#page-main header nav ul {
+
+   list-style: none;
+
+   overflow: auto;
+
+   float: right;
+
+   margin-right: 15px;
+}
+
+#page-main header nav ul li {
+
+   float: left;
+
+   margin-left: 30px;
+}
+
+#page-main header nav ul li a {
+
+   color: #8C6C35;
+
+   text-decoration: none;
+
+   font-size: 18pt;
+}
+
+#page-main header nav ul li a:hover {
+
+   color: #F4C36F;
+
+   text-decoration: none;
+
+   font-size: 18pt;
+}
+
+.header-div {
+
+   width: 320px;
+}
+
+h1#logo-text {
+
+   color: #e38428;
+
+   margin-left: 10px;
+
+   line-height: .5em;
+}
+
+h4#slogan-text {
+
+   color: #bb6f25;
+
+   margin-top: 0px;
+
+   margin-left: 90px;
+}
+
+#page-main footer {
+
+   background-color: #E5C8A5;
+
+   line-height: 2em;
+}
+
+#page-main footer div {
+
+   text-align: center;
+}

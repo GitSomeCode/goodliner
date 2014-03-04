@@ -1,0 +1,330 @@
+{
+	"quotes": [
+	   {
+	      "content": "Did you say 'Good Morning' to someone today?",
+	      "respos": "I said 'Good Morning' to someone today, did you?",
+	      "resneg": "Saying 'Good Morning' to someone just might make their day better...",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Did you smile at a passerby today?",
+	      "respos": "Sharing a smile with someone made my day a lot more cheerful!",
+	      "resneg": "Lighten up and smile at someone today!",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Did you stop and smell the roses today?",
+	      "respos": "Stopping to smell the roses made me enjoy each minute of the day!",
+	      "resneg": "Don't live life without stopping to smell the roses...",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Did you smile with your heart today?",
+	      "respos": "Smiling means a lot more when you mean it...",
+	      "resneg": "Like all things in life, be genuine with your smiles!",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Did you laugh today?",
+	      "respos": "I laughed today, and it felt great! Have you?",
+	      "resneg": "There's still time to laugh today!",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you do something for yourself today?",
+	      "respos": "There's only one you, so treat yourself!",
+	      "resneg": "Everyone needs a break, so treat yourself a little...",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you say 'Thank You' today?",
+	      "respos": "I thanked someone today, and it warmed my heart...",
+	      "resneg": "Take time to thank someone for their kindness...",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you stop to hear the birds today?",
+	      "respos": "I stopped to hear the birds today, and I felt at peace...",
+	      "resneg": "Take a moment and listen to nature's music",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you make someone happy today?",
+	      "respos": "I made someone happy today, and now I am happy!",
+	      "resneg": "Making someone happier will put a smile on your face...",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you make someone laugh today?",
+	      "respos": "I made someone laugh today, and their laughter lightened up my day!",
+	      "resneg": "Go ahead and make someone laugh, it will improve your mood as well",
+	      "quotetype": "question"
+	   },
+	    {
+	      "content": "Did you tell someone you love them today?",
+	      "respos": "I told someone I love them, did you?",
+	      "resneg": "Love binds everyone together, tell someone you love them...",
+	      "quotetype": ""
+	   },
+	    {
+	      "content": "Did you think beautiful thoughts today?",
+	      "respos": "Thinking beautiful thoughts made me feel beautiful!",
+	      "resneg": "Think beautiful, be beautiful!",
+	      "quotetype": "question"
+	   },
+	    {
+	      "content": "Did you think positive thoughts today?",
+	      "respos": "I chose to be positive today, did you?",
+	      "resneg": "Start thinking positive thoughts right now!",
+	      "quotetype": "question"
+	   },
+	    {
+	      "content": "Did you surround yourself with happiness today?",
+	      "respos": "I surrounded myself with happiness today, and I will again tomorrow...",
+	      "resneg": "You are surrounded by what you choose, choose happiness above all...",
+	      "quotetype": "question"
+	   },
+	    {
+	      "content": "Did you make healthy decisions today?",
+	      "respos": "I can end my day knowing I made healthy decisions...",
+	      "resneg": "There is no fixed time to start making healthy choices...",
+	      "quotetype": "question"
+	   },
+	    {
+	      "content": "Did you forgive yourself today?",
+	      "respos": "Forgiving is renewal, forgive yourself and love who you are!",
+	      "resneg": "Forgive yourself, you will be greater tomorrow...",
+	      "quotetype": "question"
+	   },
+	    {
+	      "content": "Do you consider yourself lucky today?",
+	      "respos": "I consider myself lucky, and it makes me grateful for what I have...",
+	      "resneg": "Somone out there would be joyous to have what you have...",
+	      "quotetype": "question"
+	   },
+	    {
+	      "content": "Did you help someone today?",
+	      "respos": "I helped someone today, and I realized the difference I can make!",
+	      "resneg": "Help someone today, you never know the effects it might have...",
+	      "quotetype": "question"
+	   },
+	    {
+	      "content": "Did you feed a hungry person today?",
+	      "respos": "Feeding someone fills my heart with joy!",
+	      "resneg": "To feed someone is the ultimate charity...",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you buy a coffee for someone today?",
+	      "respos": "I bought a coffee for someone today, and it made my day warmer!",
+	      "resneg": "Make someone's day warmer, buy them a coffee!",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you step aside to give someone else a chance?",
+	      "respos": "Put someone else before yourself, you're not the only one that matters...",
+	      "resneg": "Put others before yourself, and see the opportunities come...",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you open the door for someone today?",
+	      "respos": "I opened the door for someone today, they deserved it!",
+	      "resneg": "Open the door for someone, and many more will open for you!",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you compliment someone today?",
+	      "respos": "Compliments can brighten up someone's day!",
+	      "resneg": "Compliment someone today, make them remember how beautiful they are!",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you smile, just because?",
+	      "respos": "I smiled today for no reason, and it felt great!",
+	      "resneg": "A smile doesn't need a reason...",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Don't judge",
+	      "respos": "Why judge? You get zero gain from doing so...",
+	      "resneg": "Judging someone means you're perfect already, and no one is perfect...",
+	      "quotetype": "quote"
+	   },
+	     {
+	      "content": "Did you hug someone today?",
+	      "respos": "Yes, I hugged someone today and our hearts touched...",
+	      "resneg": "Hug someone you care about, everyone needs a hug!",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Everything happens for a reason",
+	      "respos": "There is no coincidence in the nature of things...",
+	      "resneg": "You might not know why, but everything happens for a reason...",
+	      "quotetype": "quote"
+	   },
+	     {
+	      "content": "Did you take the stairs today?",
+	      "respos": "Every step counts, take the stairs today!",
+	      "resneg": "Moving is good for the soul, take the stairs today!",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Do you feel invincible today?",
+	      "respos": "I feel like I can achieve anything!",
+	      "resneg": "You are capable of reaching greater heights!",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you go one step further today?",
+	      "respos": "I pushed myself out of my comfort zone!",
+	      "resneg": "Outside your comfort zone is where the magic happens!",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Do you have faith?",
+	      "respos": "Faith is the source of miracles...",
+	      "resneg": "Faith is the ultimate test of belief...",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you look up at the sky and connect with the cosmos?",
+	      "respos": "We are but a glimpse in the play of consciousness...",
+	      "resneg": "Look up at the sky, and you shall realize how small you are...",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "Did you feel in tune with nature?",
+	      "respos": "We are part of nature, part of everything...",
+	      "resneg": "You are never disconnected, for you belong to nature...",
+	      "quotetype": "question"
+	   },
+	     {
+	      "content": "If you made a mistake today, that's alright",
+	      "respos": "Learn from mistakes, and realize how far you have come...",
+	      "resneg": "We don't set out to make mistakes, they just happen...",
+	      "quotetype": "quote"
+	   },
+	     {
+	      "content": "We cross paths with people for a reason",
+	      "respos": "Every person you know makes a stroke on the canvas of your life...",
+	      "resneg": "Everyone has some significance in our lives...",
+	      "quotetype": "quote"
+	   },
+	     {
+	      "content": "Live in peace",
+	      "respos": "Living in peace is much more comfortable than living otherwise!",
+	      "resneg": "Peace grants realignment with nature...",
+	      "quotetype": "quote"
+	   },
+	     {
+	      "content": "Take a deep breath, and know that everything will be fine",
+	      "respos": "Don't try to change the course of things when they are meant to be, just let it be...",
+	      "resneg": "Be not anxious about something that might not happen...",
+	      "quotetype": "quote"
+	   },
+	   {
+	      "content": "You are never alone",
+	      "respos": "Have faith in your supporters...",
+	      "resneg": "You never have to face a problem alone, there is always someone who wants to help...",
+	      "quotetype": "quote"
+	   },
+	   {
+	      "content": "Did you know that laughter is the best medicine?",
+	      "respos": "Yes, I take two pills of laughter everyday! It is the best medicine!",
+	      "resneg": "Laughter makes everything better!",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Do you realize that it costs nothing to smile?",
+	      "respos": "Smiling costs nothing because it is invaluable...smile now!",
+	      "resneg": "Smiling reflects your inner happiness!",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Did you know that with a new day comes a clean slate?",
+	      "respos": "Strive to be the best you everyday...",
+	      "resneg": "Each day is the chance to right a wrong...",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Did you know that plants listen to you?",
+	      "respos": "Plants are not just receptive to light, but to our words and actions...",
+	      "resneg": "Plants feel what we permeate...",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "A smile requires no language",
+	      "respos": "A smile is not bound by language, but by emotion...",
+	      "resneg": "What does it take to smile? Nothing!",
+	      "quotetype": "quote"
+	   },
+	   {
+	      "content": "Do you know that you are beautiful, just as you are?",
+	      "respos": "Everyone has a unique beauty...",
+	      "resneg": "Beauty requires nothing but your true self...",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Do you realize your ability to change the world?",
+	      "respos": "I wield as much power as I believe...",
+	      "resneg": "Great change begins with a small action...",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Do you know that someone loves you?",
+	      "respos": "It is a magical feeling knowing that someone loves me...",
+	      "resneg": "There is someone out there for everyone...",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Breathe with the trees",
+	      "respos": "The breath of life permeates all...",
+	      "resneg": "Trees are the ancient ones...breathe with them...",
+	      "quotetype": "quote"
+	   },
+	   {
+	      "content": "Were you thankful for experiencing a brand new day?",
+	      "respos": "Each day marks a new page in the chapters of your life...",
+	      "resneg": "Be thankful for every experience you have and every day that is lived...",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Are you in love?",
+	      "respos": "I am in love, and I am a different person!",
+	      "resneg": "Why not be in love? Everything seems more colorful!",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Did you think about the happiness of others today?",
+	      "respos": "Think well about others and fill their day with happiness...",
+	      "resneg": "Think not of yourself but of others...",
+	      "quotetype": "question"
+	   },
+	   {
+	      "content": "Did you sing a song today?",
+	      "respos": "Sing a song of love, and your heart will thank you!",
+	      "resneg": "Grace your surroundings with the songs of your emotion!",
+	      "quotetype": "question"
+	   },
+	   {
+	   	  "content": "Music has the ability to heal",
+	   	  "respos": "Spare yourself monotony and let music work its magic!",
+	   	  "resneg": "Music is the essence of magic, it can change your mood instantaneously!",
+	   	  "quotetype": "quote"
+	   },
+	    {
+	   	  "content": "Tomorrow is another chance",
+	   	  "respos": "Tomorrow is the oppotunity to make today better...",
+	   	  "resneg": "What you failed to do today, do tomorrow...",
+	   	  "quotetype": "quote"
+	   },
+	    {
+	   	  "content": "Close your eyes and find your inner peace",
+	   	  "respos": "Because all the answers are within...",
+	   	  "resneg": "You can truly focus within...",
+	   	  "quotetype": "quote"
+	   }
+	]
+}
+
+

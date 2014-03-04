@@ -1,0 +1,67 @@
+{% extends "quotes/base.html" %}
+
+{% block stylesheets %}
+{% endblock %}
+
+{% block mainpage %}
+   <div>
+
+   <div id = "quote-container">
+     <div id = "LS" class = "side-filler">
+     </div>
+
+     <div id = "RS" class = "side-filler">
+     </div>
+
+     <div id = "QuoteLikeRefresh">
+
+	        <div id = "horiz">
+	        </div>
+
+	        <div id = "Quote">
+	           {% if not singleQuote %}
+	              <h1>Quote not found!!</h1>
+			   {% else %}
+			      <!--p> {{ singleQuote.content }} </p-->
+			      <p> {{ singleQuote.content }} </p>
+			   {% endif %}
+	        </div>
+
+	        <div id = "LikeRefresh">
+	        </div>
+     </div>
+     
+ 
+   </div>
+
+   <div id = "FbLikes">
+      <div id = "Fb">
+      </div>
+
+      <div id = "Likes">
+      </div>
+
+      <div id = "FbLikes-filler">
+      </div>
+
+   </div>
+
+  
+   
+   </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  function inc() {
+    $.ajax({
+    url: "inc",
+    type: "GET",
+    data: {"hello": "This was sent from the Client!", "qHash": "{{ quoteIdHash }}" }
+    }).done(function(data) {
+       console.log("Ajax Response Successful!");
+       console.log(data);
+    });
+  }
+</script>
+{% endblock %}

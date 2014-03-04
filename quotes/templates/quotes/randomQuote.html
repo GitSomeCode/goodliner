@@ -1,0 +1,12 @@
+% extends "quotes/base.html" %}
+
+{% block stylesheets %}
+   {% load staticfiles %}
+   <link rel = "stylesheet" href = "{% static 'quotes/css/styles.css' %}">
+{% endblock %}
+
+{% block mainpage %}
+   <div>
+      <p> {{ randomQuote.content }} </p>
+   </div>
+{% endblock %}

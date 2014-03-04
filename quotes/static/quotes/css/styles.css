@@ -1,0 +1,187 @@
+body {
+
+   font-family: verdana;
+}
+
+h1#logo-text {
+
+   /*font-family: "IM Fell Great Primer";*/
+   font-family: "Esteban";
+
+   /*font-style: italic;*/
+}
+
+div#page-main {
+
+   width: 1100px;
+   /*width: 100%;*/
+
+   /*border: 1px solid black;*/  
+}
+
+#page-main header {
+
+   background-color: #f8e9d7;
+}
+
+#page-main header hgroup {
+
+   /*width: 640px;*/
+   width: 60%;
+}
+
+#page-main header nav {
+
+   color: #9c5114;
+
+   /*width: 320px;*/
+   width: 40%;
+
+   margin-top: 20px;
+}
+
+#page-main header nav ul {
+
+   list-style: none;
+
+   overflow: auto;
+
+   float: right;
+
+   margin-right: 15px;
+}
+
+#page-main header nav ul li {
+
+   float: left;
+
+   margin-left: 30px;
+}
+
+#page-main header nav ul li a {
+
+   color: #8C6C35;
+
+   text-decoration: none;
+
+   font-size: 18pt;
+}
+
+#page-main header nav ul li a:hover {
+
+   color: #F4C36F;
+
+   text-decoration: none;
+
+   font-size: 18pt;
+}
+
+.header-div {
+
+   width: 320px;
+}
+
+h1#logo-text {
+
+   color: #e38428;
+
+   margin-left: 10px;
+
+   line-height: .5em;
+}
+
+h4#slogan-text {
+
+   color: #bb6f25;
+
+   margin-top: 0px;
+
+   margin-left: 90px;
+}
+
+#page-main footer {
+
+   background-color: #E5C8A5;
+
+   line-height: 2em;
+}
+
+#page-main footer div {
+
+   text-align: center;
+}
+
+/* SANGEETA PUT THE FOLLOWING........*/
+#quote-container{
+	width: 1100px;
+	/*height: 460px;*/
+	
+}
+
+.side-filler{
+	/*display: table-cell;*/
+	/*vertical-align: middle;*/
+	width: 20%;
+	height: 460px;
+	background-color: #2DE02D;
+}
+
+#RS{
+	float: right;
+	background-color: #2DE02D;
+}
+
+#LS{
+	float: left;
+	background-color: #2DE02D;
+}
+
+#QuoteLikeRefresh{
+	vertical-align: middle;
+	margin-left: 20%;
+	width: 60%;
+	height: 460px;
+	/*
+	border-style:solid;
+    border-width:5px;
+    */
+    
+}
+
+#horiz{
+	height: 5%;
+	background-color: #DE2209;
+}
+
+#Quote{
+	height: 60%;
+	/*width: 80%;*/
+    text-align: center;
+    background-color: #F2D91B;
+}
+
+#LikeRefresh{
+	height: 35%;
+	background-color: #B797E8;
+	float: bottom;
+}
+
+#FbLikes{
+	height:40px;
+	width: 1100px;
+	background-color: #0910DE;
+}
+
+#Fb{
+	float: left;
+	height:40px;
+	background-color: #588C4A;
+	width: 30%;
+}
+
+#Likes{
+	float: right;
+	height:40px;
+	background-color: #68C8DE;
+	width: 30%;
+}
