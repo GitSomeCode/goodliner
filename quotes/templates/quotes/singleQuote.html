@@ -31,7 +31,28 @@
 	        </div>
 
 	        <div id = "LikeRefresh">
-	        </div>
+                   <div id = "LikeDislike">
+                         <div id = "leftspace" class = "likedislikespace">
+                         </div>
+
+                         <div id = "rightspace" class = "likedislikespace">
+                         </div>
+
+                         <div id = "ThumbsUp">
+                         </div>
+
+                         <div id = "middleoflikes">
+                         </div>
+
+                         <div id = "ThumbsDown">
+                         </div>
+
+                         
+                   </div>
+ 
+                 <div id = "Refresh">
+                 </div>
+          </div>
      </div>
      
  
@@ -39,6 +60,9 @@
 
    <div id = "bottomNav">
       <div id = "socialShare">
+         <div id = "shareButton_fb" class = "shareButton"></div>
+         <div id = "shareButton_tw" class = "shareButton"></div>
+         <div id = "shareButton_gp" class = "shareButton"></div>
       </div>
 
       <div id = "Likes">
@@ -66,5 +90,13 @@
        console.log(data);
     });
   }
+</script>
+<script>
+   $("#shareButton_fb").hover(
+    function(){
+      $(this).removeClass("shareButton");
+      $(this).addClass("shareButtonOver");
+    },
+    );
 </script>
 {% endblock %}

@@ -113,78 +113,100 @@ h4#slogan-text {
 
 /* SANGEETA PUT THE FOLLOWING........*/
 #quote-container{
-	width: 1100px;
-	/*height: 460px;*/
-	
+  width: 1100px;
+  /*height: 460px;*/
+  
 }
 
 .side-filler{
-	/*display: table-cell;*/
-	/*vertical-align: middle;*/
-	width: 16%;
-	height: 450px;
-	background-color: #2DE02D;
+  /*display: table-cell;*/
+  /*vertical-align: middle;*/
+  width: 16%;
+  height: 450px;
+  background-color: #2DE02D;
 }
 
 #RS{
-	float: right;
-	background-color: #2DE02D;
+  float: right;
+  background-color: #2DE02D;
 }
 
 #LS{
-	float: left;
-	background-color: #2DE02D;
+  float: left;
+  background-color: #2DE02D;
 }
 
 #QuoteLikeRefresh{
-	vertical-align: middle;
-	margin-left: 16%;
-	width: 68%;
-	height: 450px;
-	/*
-	border-style:solid;
+  vertical-align: middle;
+  margin-left: 16%;
+  width: 68%;
+  height: 450px;
+  /*
+  border-style:solid;
     border-width:5px;
     */
     
 }
 
 #horiz{
-	height: 15%;
-	background-color: #DE2209;
+  height: 15%;
+  background-color: #DE2209;
 }
 
 #Quote{
-	height: 50%;
-	/*width: 80%;*/
+  height: 50%;
+  /*width: 80%;*/
     text-align: center;
     background-color: #FFFFFF;
     background-image: url("../img/background5.png");
 }
 
 #LikeRefresh{
-	height: 35%;
-	background-color: #B797E8;
-	float: bottom;
+  height: 35%;
+  background-color: #B797E8;
+  float: bottom;
 }
 
 #bottomNav{
-	height:50px;
-	width: 1100px;
-	background-color: #0910DE;
+  height:50px;
+  width: 1100px;
+  background-color: #0910DE;
 }
 
 #socialShare{
-	float: left;
-	height:50px;
-	background-color: #588C4A;
-	width: 30%;
+  float: left;
+  height:50px;
+  background-color: #588C4A;
+  width: 30%;
+}
+
+div.shareButton {
+  width: 50px;
+  height: 50px;
+  cursor: pointer; 
+}
+
+div.shareButtonOver {
+  background-position: -50px;
+}
+
+div#shareButton_fb {
+  background-image: url("../img/fb_share.png");
+}
+
+div#shareButton_tw {
+  background-image: url("../img/tw_share.png");
+}
+
+div#shareButton_gp {
+  background-image: url("../img/gp_share.png");
 }
 
 #Likes{
-	float: right;
-	height:50px;
-	background-color: #68C8DE;
-	width: 30%;
+  float: right;
+  height:50px;
+  background-color: #68C8DE;
+  width: 30%;
 }
 
 #actualquote{
@@ -204,4 +226,49 @@ h4#slogan-text {
    font-weight: bold;
 }
 
- 
+#LikeDislike{
+  height: 65%;
+  width: 100%;
+}
+
+.likedislikespace{
+  width: 311px;
+  height: 60%;
+  background-color: #6EC8DE;
+}
+
+#leftspace{
+  float: left;
+}
+
+#rightspace{
+  float: right;
+}
+
+#middleoflikes{
+   width: 6px;
+   height: 60%;
+   float: left;
+}
+
+#ThumbsUp {
+  height: 60%;
+  width: 60px;
+  background-image: url("../img/like2.png");
+  float: left;
+}
+
+#ThumbsDown{
+  height: 60%;
+  width: 60px;
+  background-image: url("../img/dislike2.png");
+  float: left;
+}
+
+#Refresh{
+  height: 35%;
+  margin: 0 auto;
+  float: top;
+  width: 48px;
+  background-image: url("../img/refresh2.png");
+}
