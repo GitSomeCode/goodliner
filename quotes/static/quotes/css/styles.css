@@ -122,7 +122,7 @@ h4#slogan-text {
 	/*display: table-cell;*/
 	/*vertical-align: middle;*/
 	width: 16%;
-	height: 460px;
+	height: 450px;
 	background-color: #2DE02D;
 }
 
@@ -140,7 +140,7 @@ h4#slogan-text {
 	vertical-align: middle;
 	margin-left: 16%;
 	width: 68%;
-	height: 460px;
+	height: 450px;
 	/*
 	border-style:solid;
     border-width:5px;
@@ -167,36 +167,37 @@ h4#slogan-text {
 	float: bottom;
 }
 
-#FbLikes{
-	height:40px;
+#bottomNav{
+	height:50px;
 	width: 1100px;
 	background-color: #0910DE;
 }
 
-#Fb{
+#socialShare{
 	float: left;
-	height:40px;
+	height:50px;
 	background-color: #588C4A;
 	width: 30%;
 }
 
 #Likes{
 	float: right;
-	height:40px;
+	height:50px;
 	background-color: #68C8DE;
 	width: 30%;
 }
 
-#quotelives{
+#actualquote{
   font-family: "Bad Script", cursve;
-  
   color: #9c5114;
-  
   text-align: center;
-  
+  padding-top: 70px;
+  padding-left: 65px;
+  width: 90%;
+  /*
   padding-top: 10px;
   padding-left: 5px;
-  
+  */
 }
 
 #quotelives h1{
@@ -204,8 +205,3 @@ h4#slogan-text {
 }
 
  
-lquote{
-  margin-t margpx;
-  width: 8iddddd margin-left: 80nx;
-} 5px;
-}

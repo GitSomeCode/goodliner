@@ -19,16 +19,15 @@
 	        </div>
 
 	        <div id = "Quote">
-		            <div id = "quotelives">
-		               <h1 id = "actualquote">
-				           {% if not singleQuote %}
-				              <h1>Quote not found!!</h1>
+            <div id = "quotelives">
+               <h1 id = "actualquote">
+				       {% if not singleQuote %}
+				              Quote not found!!
 						   {% else %}
-						      <!--p> {{ singleQuote.content }} </p-->
-						      <p> {{ singleQuote.content }} </p>
+						       {{ singleQuote.content }}
 						   {% endif %}
-						 </h1>
-					 </div>
+						   </h1>
+					  </div>
 	        </div>
 
 	        <div id = "LikeRefresh">
