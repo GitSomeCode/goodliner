@@ -45,12 +45,18 @@
                          </div>
 
                          <div id = "ThumbsDown">
-                         </div>
-
-                         
+                         </div>  
                    </div>
  
-                 <div id = "Refresh">
+                 <div id = "RefreshSpace">
+                     <div id = "Rleftspace" class = "Rspace">
+                     </div>
+
+                     <div id = "Rrightspace" class = "Rspace">
+                     </div>
+
+                     <div id = "Refresh">
+                     </div>
                  </div>
           </div>
      </div>
@@ -93,10 +99,33 @@
 </script>
 <script>
    $("#shareButton_fb").hover(
-    function(){
-      $(this).removeClass("shareButton");
-      $(this).addClass("shareButtonOver");
-    },
+      function(){
+        $(this).addClass("shareButtonOver");
+      },
+      function(){
+        $(this).removeClass("shareButtonOver");
+      }
     );
+   $("#shareButton_tw").hover(
+      function(){
+        $(this).addClass("shareButtonOver");
+      },
+      function(){
+        $(this).removeClass("shareButtonOver");
+      }
+    );
+   $("#shareButton_gp").hover(
+      function(){
+        $(this).addClass("shareButtonOver");
+      },
+      function(){
+        $(this).removeClass("shareButtonOver");
+      }
+    );
+
+   function populateTags() {
+      
+   }
+   
 </script>
 {% endblock %}

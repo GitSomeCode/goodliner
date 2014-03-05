@@ -178,28 +178,34 @@ h4#slogan-text {
   height:50px;
   background-color: #588C4A;
   width: 30%;
+  padding-left: 92px;
 }
 
 div.shareButton {
   width: 50px;
   height: 50px;
+  float: left;
+  margin-right: 10px;
   cursor: pointer; 
 }
 
 div.shareButtonOver {
-  background-position: -50px;
+  background-position-x: -50px;
 }
 
 div#shareButton_fb {
   background-image: url("../img/fb_share.png");
+  background-repeat: no-repeat;
 }
 
 div#shareButton_tw {
   background-image: url("../img/tw_share.png");
+  background-repeat: no-repeat;
 }
 
 div#shareButton_gp {
   background-image: url("../img/gp_share.png");
+  background-repeat: no-repeat;
 }
 
 #Likes{
@@ -210,6 +216,7 @@ div#shareButton_gp {
 }
 
 #actualquote{
+  margin: 0;
   font-family: "Bad Script", cursve;
   color: #9c5114;
   text-align: center;
@@ -233,7 +240,7 @@ div#shareButton_gp {
 
 .likedislikespace{
   width: 311px;
-  height: 60%;
+  height: 65%;
   background-color: #6EC8DE;
 }
 
@@ -252,23 +259,42 @@ div#shareButton_gp {
 }
 
 #ThumbsUp {
-  height: 60%;
+  height: 60px;
   width: 60px;
   background-image: url("../img/like2.png");
   float: left;
 }
 
 #ThumbsDown{
-  height: 60%;
+  height: 60px;
   width: 60px;
   background-image: url("../img/dislike2.png");
   float: left;
 }
 
+#Refreshspace{
+   height: 35%;
+   width: 100%;
+}
+
+.Rspace{
+  height: 54px;
+  width: 350px;
+  background-color: #CC21C6;
+}
+
+#Rleftspace{
+  float: left;
+}
+
+#Rrightspace{
+  float: right;
+}
+
 #Refresh{
-  height: 35%;
-  margin: 0 auto;
-  float: top;
+  height: 54px;
   width: 48px;
+  margin: 0 auto;
+  float: left;
   background-image: url("../img/refresh2.png");
 }
