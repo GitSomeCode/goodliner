@@ -23,7 +23,10 @@ def randomQuote(request):
     #if request.is_ajax():
 
      
-    return render(request, "quotes/singleQuote.html", {"singleQuote": randomQuote, "quoteIdHash": quoteIdHash})
+    return render(request, "quotes/singleQuote.html", \
+           {"singleQuote": randomQuote, \
+            "quoteIdHash": quoteIdHash,  \
+            "title": "Random Inspirational Quotes for You!"})
  
 def getQuote(request, qHash):
     q = None
@@ -42,7 +45,10 @@ def getQuote(request, qHash):
 
     print q
         
-    return render(request, "quotes/singleQuote.html", {"singleQuote": q, "quoteIdHash": qHash})
+    return render(request, "quotes/singleQuote.html", \
+      {"singleQuote": q, \
+       "quoteIdHash": qHash, \
+       "title": "Random Inspirational Quotes for You!"})
 
 def incrementQuote(request):
      if request.is_ajax():

@@ -263,6 +263,8 @@ div#shareButton_gp {
   width: 60px;
   background-image: url("../img/like2.png");
   float: left;
+  cursor: pointer;
+
 }
 
 #ThumbsDown{
@@ -270,6 +272,7 @@ div#shareButton_gp {
   width: 60px;
   background-image: url("../img/dislike2.png");
   float: left;
+  cursor: pointer;
 }
 
 #Refreshspace{
@@ -298,3 +301,60 @@ div#shareButton_gp {
   float: left;
   background-image: url("../img/refresh2.png");
 }
+
+div#middleofcounts
+{
+  width: 20px;
+  height: 50px;
+  background-color: #FF0000;
+  float: left;
+}
+
+#LEFT{
+  float: left;
+  height: 50px;
+  width: 155px;
+}
+
+#RIGHT{
+  float: left;
+  height: 50px;
+  width: 155px;
+}
+
+.counticon{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.number{
+  float: right;
+  height: 50px;
+  width: 105px; 
+  background-color: #BF9F1F;
+}
+
+
+#likenumber{
+  height: 50px;
+  width: 105px;
+  
+}
+
+#dislikenumber{
+  height: 50px;
+  width: 105px;
+}
+
+#likecount{
+  /*float: left;*/
+  background-image: url("../img/likecount.png");
+}
+
+#dislikecount{
+  /*float: left;*/
+  background-image: url("../img/dislikecount.png");
+}
+
+

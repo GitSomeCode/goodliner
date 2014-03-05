@@ -1,5 +1,9 @@
 {% extends "quotes/base.html" %}
 
+{% block title %}
+   {{ title }}
+{% endblock %}
+
 {% block stylesheets %}
 {% endblock %}
 
@@ -15,22 +19,22 @@
 
      <div id = "QuoteLikeRefresh">
 
-	        <div id = "horiz">
-	        </div>
+          <div id = "horiz">
+          </div>
 
-	        <div id = "Quote">
+          <div id = "Quote">
             <div id = "quotelives">
                <h1 id = "actualquote">
-				       {% if not singleQuote %}
-				              Quote not found!!
-						   {% else %}
-						       {{ singleQuote.content }}
-						   {% endif %}
-						   </h1>
-					  </div>
-	        </div>
+               {% if not singleQuote %}
+                      Quote not found!!
+               {% else %}
+                   {{ singleQuote.content }}
+               {% endif %}
+               </h1>
+            </div>
+          </div>
 
-	        <div id = "LikeRefresh">
+          <div id = "LikeRefresh">
                    <div id = "LikeDislike">
                          <div id = "leftspace" class = "likedislikespace">
                          </div>
@@ -72,6 +76,28 @@
       </div>
 
       <div id = "Likes">
+            <div id = "LEFT">
+	              <div id = "likecount" class = "counticon">
+	              </div>
+
+	              <div id = "likenum" class = "number">
+	                  <p> 2,800 </p>
+	              </div>
+            </div>
+
+            <div id = "middleofcounts">
+            </div>
+
+            <div id = "RIGHT">
+	              <div id = "dislikecount" class = "counticon">
+	              </div>
+
+	              <div id = "dislikenum"  class = "number">
+	                  <p> 1,345 </p>
+	              </div>
+            </div>
+
+            
       </div>
 
       <div id = "FbLikes-filler">
@@ -86,6 +112,11 @@
 
 {% block scripts %}
 <script>
+  var respos;
+  var resneg;
+  var clicked = [false, false];
+</script>
+<script>
   function inc() {
     $.ajax({
     url: "inc",
@@ -97,7 +128,7 @@
     });
   }
 </script>
-<script>
+<script>  
    $("#shareButton_fb").hover(
       function(){
         $(this).addClass("shareButtonOver");
@@ -123,9 +154,57 @@
       }
     );
 
-   function populateTags() {
-      
+   function thumbsupclick() {
+     clicked[0] = true;
+     console.log("Thumbs Up");
+     disableThumbs();
    }
+
+   function thumbsdownclick() {
+     clicked[1] = true;
+     console.log("Thumbs Down");
+     disableThumbs();
+   }
+
+   function disableThumbs() {
+     $("#ThumbsUp").unbind("click");
+     $("#ThumbsDown").unbind("click");
+   }
+
+   function enableThumbs() {
+     $("#ThumbsUp").bind("click", thumbsupclick);
+     $("#ThumbsDown").bind("click", thumbsdownclick);
+   }
+
+   $("#ThumbsUp").bind("click", thumbsupclick);
+
+   $("#ThumbsDown").bind("click", thumbsdownclick);
+
+   function populateTags() {
+      var loc = document.location;
+      var dataloc = encodeURIComponent(document.location);
+      $("#m_fb_title").attr("content", "{{ title }}");
+      $("#m_fb_url").attr("content", loc);
+      $("#m_fb_descr").attr("content", "Inspirational daily quotes! The quote of the hour is: '{{ singleQuote.content }}'");
+      $("#m_fb_image").attr("content", loc + "static/quotes/img/sharepic.png");
+   }
+
+   function gatherQuote() {
+      if( !clicked[0] && !clicked[1] )
+        return "{{ singleQuote.content }}";
+      else if( clicked[0] && !clicked[1] )
+        return respos;
+      else if( !clicked[0] && clicked[1] )
+        return resneg;
+   }
+
+   (function($) {
+      populateTags();
+      respos = "{{ singleQuote.respos|safe }}";
+      resneg = "{{ singleQuote.resneg|safe }}";
+      console.log("respos: " + respos);
+      console.log("resneg: " + resneg);
+   })(jQuery);
    
 </script>
 {% endblock %}
