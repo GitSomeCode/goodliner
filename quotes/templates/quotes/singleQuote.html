@@ -19,12 +19,16 @@
 	        </div>
 
 	        <div id = "Quote">
-	           {% if not singleQuote %}
-	              <h1>Quote not found!!</h1>
-			   {% else %}
-			      <!--p> {{ singleQuote.content }} </p-->
-			      <p> {{ singleQuote.content }} </p>
-			   {% endif %}
+		            <div id = "quotelives">
+		               <h1 id = "actualquote">
+				           {% if not singleQuote %}
+				              <h1>Quote not found!!</h1>
+						   {% else %}
+						      <!--p> {{ singleQuote.content }} </p-->
+						      <p> {{ singleQuote.content }} </p>
+						   {% endif %}
+						 </h1>
+					 </div>
 	        </div>
 
 	        <div id = "LikeRefresh">
@@ -34,8 +38,8 @@
  
    </div>
 
-   <div id = "FbLikes">
-      <div id = "Fb">
+   <div id = "bottomNav">
+      <div id = "socialShare">
       </div>
 
       <div id = "Likes">
